@@ -1,0 +1,257 @@
+.clearfix {
+    overflow: hidden;
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    body {
+        background-color: #ebebeb !important;
+        a {
+            text-decoration: none!important;
+        }
+
+        header {}
+
+        section {
+            padding: 20px 0 50px;
+
+            .container {
+                padding: 0;
+
+                #body-content {
+                    margin: 10px 0;
+
+                    .col-md-4,.col-md-3 {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    @media only screen and (min-width:1200px) {
+                        .col-md-8 {
+                            margin: 0;
+                            padding: 0 10px 0 0;
+                        }
+                    }
+                    @media only screen and (max-width:1200px) and (min-width:768px) {
+                        .col-md-8 {
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+
+                    .body-content--2 {
+                        padding:20px;
+                        background-color: #ffffff;
+                        button.confirm{
+                            float: right;
+                            width: 100%;
+                            background-color: #f7941e;
+                            padding:4px 0px;
+                            color: #ffffff;
+                            height: 40px;
+                            border:0;
+                            border-radius: 0;
+                            color:#333333;
+                        }
+                        #exampleModal{
+                            .modal-dialog{
+                                width:800px;
+                                .modal-content{
+                                    border-radius:0;
+                                    background-color:#ffffff;
+                                    border:0;
+                                    .modal-header{
+                                        border:0;
+                                    }
+                                    .modal-body{
+                                        border:0;
+                                        padding:0;
+                                        button.close{
+                                            span{
+                                               img{
+                                                    width:30px; height:30px;
+                                                } 
+                                            }
+                                            
+                                        }
+                                        .modal-body-left{
+                                            padding:50px 40px;
+                                            background-color:#ffffff;
+                                            border:0;
+                                            h3{
+                                                margin:0;
+                                                padding:0 0 15px;
+                                                border-bottom:1px solid #dddddd;
+                                            }
+                                            button{
+                                                border-radius:0;
+                                                box-shadow: 0;
+                                            }
+                                            p.p-input{
+                                                padding:0;
+                                                margin:0;
+                                                text-align:left;
+                                                display:inline-block;
+                                            }
+                                            a.forget_password{
+                                                float:right;
+                                                display:inline-block;
+                                            }
+                                            input{
+                                                margin:5px 0px 12px;
+                                                display:block;
+                                                width:100%;
+                                                height:40px;
+                                                padding:15px;
+                                            }
+                                            small.small{
+                                                text-align:center;
+                                                display:block;
+                                                color:#999999;
+                                                @media only screen and (min-width:1000px) and (max-width:1200px){
+                                                    padding:26px 0px;
+                                                    font-size:10.5px;
+                                                    &:before{
+                                                        display:inline-block;
+                                                        content:"____________";
+                                                        position:relative;
+                                                        top:-7px;
+                                                        left:0;
+                                                        margin-right:9px;
+                                                    }
+                                                    &:after {
+                                                        content:"____________";
+                                                        position:relative;
+                                                        top:-7px;
+                                                        right:0;
+                                                        margin-left:4px;
+                                                        display:inline-block;
+                                                    }
+                                                }
+                                                @media only screen and (max-width:1000px){
+                                                    padding:15px 0px;
+                                                    font-size:13px;
+                                                    &:before{
+                                                        display:inline-block;
+                                                        content:"____________";
+                                                        position:relative;
+                                                        top:-7px;
+                                                        left:0;
+                                                        margin-right:9px;
+                                                    }
+                                                    &:after {
+                                                        display:inline-block;
+                                                        content:"____________";
+                                                        position:relative;
+                                                        top:-7px;
+                                                        right:0;
+                                                        margin-left:4px;
+                                                    }
+                                                }
+                                                @media only screen and (min-width:1000px){
+                                                    padding:15px 0px;
+                                                    font-size:13px;
+                                                    &:before{
+                                                        display:inline-block;
+                                                        content:"____________";
+                                                        position:relative;
+                                                        top:-7px;
+                                                        left:0;
+                                                        margin-right:9px;
+                                                    }
+                                                    &:after {
+                                                        display:inline-block;
+                                                        content:"____________";
+                                                        position:relative;
+                                                        top:-7px;
+                                                        right:0;
+                                                        margin-left:4px;
+                                                    }
+                                                }
+                                            }
+
+                                            button.button-signin{
+                                                text-align:center;
+                                                display:block;
+                                                margin:0 auto;
+                                                width:100%;
+                                                background-color:#ed0000;
+                                                color:#ffffff;
+                                                font-weight:normal;
+                                                padding:10px;
+                                            }
+                                            button.button-google{
+                                                float:right;
+                                                width:47.67%;
+                                                color:#333333;
+                                                height:35px;
+                                                background-color:#ffffff;
+                                                font-size:12px;
+                                                img{
+                                                    height:15px;
+                                                    width:15px;
+                                                    margin-top:-2px;
+                                                }
+                                            }
+                                            button.button-facebook{
+                                                width:47.67%;
+                                                float:left;
+                                                height:35px;
+                                                background-color:#39579a;
+                                                color:#ffffff;
+                                                font-size:12px;
+                                                img{
+                                                    margin-top:-2px;
+                                                    height:15px;
+                                                    width:15px;
+                                                }
+                                            }
+                                        }
+                                        .modal-body-right{
+                                            background-color:#f5f5f5;
+                                            border:0;
+                                            padding:30px 40px;
+                                            h3{
+                                                margin:0;
+                                                padding:0 0 15px;
+                                            }
+                                            p{
+                                                padding:0;
+                                                text-align:left;
+                                                margin:0px;
+                                            }
+                                            input{
+                                                margin:5px 0px 12px;
+                                                display:block;
+                                                width:100%;
+                                                height:40px;
+                                                padding:15px;
+                                                border:0;
+                                            }
+                                            button{
+                                                text-align:center;
+                                                display:block;
+                                                margin:0 auto;
+                                                width:100%;
+                                                background-color:#009ffe;
+                                                color:#ffffff;
+                                                font-weight:normal;
+                                                padding:10px;
+                                                border-radius:0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {}
+    }
+
